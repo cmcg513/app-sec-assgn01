@@ -1,0 +1,13 @@
+# Secure Turing Complete Sandbox Challenge
+# Assignment 1, Part 1
+# Application Security CS-GY 4753
+# Prof. Justin Cappos
+# 
+# Example Program #01 - Powers of 2
+# Author: Casey McGinley <cmm771>
+
+num = 1
+print num
+while num != 128:
+	num = num * 2
+	print num

@@ -1,0 +1,17 @@
+# Secure Turing Complete Sandbox Challenge
+# Assignment 1, Part 1
+# Application Security CS-GY 4753
+# Prof. Justin Cappos
+# 
+# Example Program #01 - Powers of 2
+# Author: Casey McGinley <cmm771>
+# 
+# This is just to demonstrate how this sandbox would work if the data was in a
+# separate file
+
+num = 1
+print num
+limit = int(__data__.strip())
+while num != limit:
+	num = num * 2
+	print num

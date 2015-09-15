@@ -1,0 +1,18 @@
+# Secure Turing Complete Sandbox Challenge
+# Assignment 1, Part 1
+# Application Security CS-GY 4753
+# Prof. Justin Cappos
+# 
+# Example Program #02 - Fibonacci Sequence
+# Author: Casey McGinley <cmm771>
+
+prev = 1
+print prev
+count = 1
+num = 1
+while count < 10:
+	print num
+	temp = num
+	num += prev
+	prev = temp
+	count = count + 1
